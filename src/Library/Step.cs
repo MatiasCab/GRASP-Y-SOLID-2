@@ -16,6 +16,12 @@ namespace Full_GRASP_And_SOLID.Library
             this.Equipment = equipment;
         }
 
+        public double StepTotal() // Este metodo lo que hace es calcular el total de cada linea.
+        {
+            double stepCost = (this.Input.UnitCost * this.Quantity) + (this.Equipment.HourlyCost * this.Time/60);
+            return stepCost;
+        }
+
         public Product Input { get; set; }
 
         public double Quantity { get; set; }
