@@ -48,7 +48,7 @@ namespace Full_GRASP_And_SOLID.Library
             return recipeText.ToString();
         }
         /* Aca estoy haciendo uso del patron expert, ya que como la clase recipe es la que contiene 
-        todos los datos necesarios para armar el texto a imprimir, creo un metdod que haga esa labor.
-        Porque si lo hiciera en "ConsolePrinter" estaria incumpliendo dicho patron. */
+        todos los datos necesarios para armar el texto a imprimir, creo un metodo que haga esa labor.
+        Porque si lo hiciera en "ConsolePrinter" estaria incumpliendo dicho patron. °o° */
     }
 }
